@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Pokedex!</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <div class ="header">
+        <h1 id="title">Welcome, to our Pokedex!</h1>
+        <hr>
+    </div>
+    <div class="content">
+        <div class="box">
+            <div class="form">
+                <div>
+                    <h3>Welcome to the Pokedex!</h3>
+                    <p>Here, we can search for your favrouite Pokemon and display it to you!</p>
+                </div>
+                <form id="pokeForm">
+                    <!-- <div>
+                        <label for="pokeName">Pokemon's name:</label>
+                        <input type="textbox" id="pokeName" placeholder="E.g., Pikachu">
+                    </div> -->
+                    <div>
+                        <label for ="pokeName">Pokemon's name:</label>
+                        <select id="pokeName"></select>
+                    </div>
+                    <div>
+                        <input type="submit" value="Catch that Pokemon!">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="box">
+            <img id="pokeImage">
+            <p id="pokeInfo"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
